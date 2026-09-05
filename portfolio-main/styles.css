@@ -1,0 +1,89 @@
+body{
+    font-family: 'Tinos', serif;
+    margin: 0;
+    font-weight: 300;
+    background: #231f20;
+}
+header{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.me{
+    background-image: url(images/IMG_7096.png\ \(cropped\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.font1{
+    font-family: 'Imperial Script', cursive;
+    font-size: 10rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+.font2{
+    font-size: 8rem;
+    text-align: center;
+    color:#fff;
+    margin-top: 0;
+}
+section{
+    background-color: #231F20;
+    color: #fff;
+}
+.About1{
+    background-color: #fff0dd;
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+.images1{
+    display: flex;
+}
+.images1 img{
+    width: 50%;
+    height: 75%;
+    flex: 1;
+}
+.About{
+    text-align: center;
+    font-weight: 500;
+}
+.displayflex{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+}
+.images2{
+    width: 100%;
+}
+.images2 img{
+    width: 100%;
+    display: block;
+}
+h3{
+    padding-top: 1.5rem;
+}
+@media (min-width:1100px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    header{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .About1{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+}
